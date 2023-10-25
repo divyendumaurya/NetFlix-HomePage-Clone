@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflis Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- ========= Banner section starts========= -->
+
+    <section class="w-[100%] h-[100vh] bg-[url('./images/head.png')] bg-center bg-cover">
+
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+            <header class="max-w-[1170px] mx-auto">
+                <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-[10px] justify-center">
+                    <figure>
+                        <img class="w-[148px]  sm: m-[18px_2px] p-[10px]" src="./images/logo (1).png" alt="logo">
+                    </figure>
+                    <div class="flex justify-end gap-[10px] m-[20px]">
+                        <div class="relative">
+                            <svg class="text-white absolute top-[10px] left-[5px]" width="16" height="16"
+                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="Languages" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            <!-- <img class= src="./images/world.png" alt=""> -->
+                            <select name="" id=""
+                                class="bg-black text-white border-[1px] border-t-white p-[6px_20px] rounded-[5px] sm: p[5px_25px]">
+                                <option value="">English</option>
+                                <option value="">Hindi</option>
+                            </select>
+                        </div>
+                        <div>
+                            <button class="p-[6px_20px] rounded-[5px] bg-[red] ">
+                                Sign In
+                            </button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </header>
+
+            <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px] text-center text-white">
+                <h1 class="font-bold sm:text-[45px] text-[28px]">Unlimited movies, TV shows and more</h1>
+                <h4 class="text-[20px] py-[16px]">Watch anywhere. Cancel anytime.</h4>
+                <p class="text-[20px]">Ready to watch? Enter your email to create or restart your membership.</p>
+
+                <div class="max-w-[700px] sm:px-[10px] px-[40px] mx-auto mt-[30px]">
+                    <form class="grid gap-[20px] sm:grid-cols-[70%_auto] grid-cols-1" action="">
+                        <input class="border-[1px] pl-[20px] h-[50px] border-[#ccc] bg-[rgba(0,0,0,0.7)]" type="email"
+                            placeholder="Email Address">
+                        <button class=" sm:ml-[10px]  rounded-[5px] bg-[red] py-[10px] text-[20px]">Get
+                            Started ></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- ========= Banner section Ends========= -->
+
+    <!-- ======================= Enjoy tv section start ======================= -->
+
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#696763] sm:py-[50px] py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <div class="text-white">
+                    <h1 class="sm:text-[50px] text-[40px] font-bold ">Enjoy on your TV</h1>
+                    <p class="sm:text-[25px] text-[20px] py-[30px]">Watch on smart TVs, PlayStation, Xbox, Chromecast,
+                        Apple TV,
+                        Blu-ray players and more.</p>
+                </div>
+                <figure class="relative">
+                    <video class="absolute w-[80%] left-[10%] bottom-[20%]  z-[1]">
+                        <source src="images/Lust.m4v">
+                    </video>
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+                        class="relative z-[2]">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= Enjoy tv section end ======================= -->
+
+    <!-- ============ download Shows Part starts ============= -->
+
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#696763] sm:py-[50px] py-[80px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <figure class="relative sm:order-1 order-2">
+                    <!-- <video class="absolute w-[80%] left-[10%] bottom-[20%]  z-[1]">
+                        <source src="images/Lust.m4v">
+                    </video> -->
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
+                        class="relative z-[2]">
+                </figure>
+                <div class="text-white sm:order-2 order-1">
+                    <h1 class="sm:text-[50px] text-[40px] font-bold sm:leading-[64px] leading-[45px]">Download your
+                        shows to watch
+                        offline</h1>
+                    <p class="sm:text-[25px] text-[20px] py-[30px]">Save your favourites easily and always have
+                        something to watch.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ============ download Shows Part Ends ============= -->
+
+    <!-- ==============watch everywhere stars=================== -->
+
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#696763] sm:py-[50px] py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <div class="text-white">
+                    <h1 class="sm:text-[50px] text-[40px] font-bold ">Watch everywhere</h1>
+                    <p class="sm:text-[25px] text-[20px] py-[30px]">Stream unlimited movies and TV shows on your phone,
+                        tablet, laptop, and TV.</p>
+                </div>
+                <figure class="relative">
+                    <video class="absolute w-[61%] left-[19%] bottom-[46%]  z-[1]">
+                        <source src="images/sardar.m4v">
+                    </video>
+                    <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png"
+                        class="relative z-[2]">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- ==============watch everywhere Ends=================== -->
+
+    <!-- ============== kids porfile starts=============== -->
+
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#696763] sm:py-[50px] py-[80px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <figure class="relative sm:order-1 order-2">
+                    <!-- <video class="absolute w-[80%] left-[10%] bottom-[20%]  z-[1]">
+                        <source src="images/Lust.m4v">
+                    </video> -->
+                    <img src="https://occ-0-6380-3647.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d"
+                        class="relative z-[2]">
+                </figure>
+                <div class="text-white sm:order-2 order-1">
+                    <h1 class="sm:text-[50px] text-[40px] font-bold sm:leading-[64px] leading-[45px]">Create profiles
+                        for kids</h1>
+                    <p class="sm:text-[25px] text-[20px] py-[30px]">Send children on adventures with their favourite
+                        characters in a space made just for them—free with your membership.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============== kids porfile Ends=============== -->
+
+    <!-- ============= FAQ section Start=================== -->
+
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#696763] sm:py-[50px] py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+
+            <div class="text-white">
+                <h1 class="sm:text-[50px] text-[40px] font-bold text-center py-[20px]">Frequently Asked Questions</h1>
+
+
+                <div id="accordion-collapse" data-accordion="collapse">
+                    <h2 id="accordion-collapse-heading-1">
+                        <button type="button"
+                            class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                            data-accordion-target="#accordion-collapse-body-1" aria-expanded="true"
+                            aria-controls="accordion-collapse-body-1">
+                            <span>What is Netflix?</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-1" class="hidden" aria-labelledby="accordion-collapse-heading-1">
+                        <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Netflix is a streaming service that offers
+                                a wide variety of award-winning TV shows, movies, anime, documentaries and more – on
+                                thousands of internet-connected devices.
+
+                            </p>
+                            <p class="text-gray-500 dark:text-gray-400"> You can watch as much as you want, whenever you
+                                want, without a single ad – all for one
+                                low monthly price. There's always something new to discover, and new TV shows and movies
+                                are added every week!.</p>
+                        </div>
+                    </div>
+                    <h2 id="accordion-collapse-heading-2">
+                        <button type="button"
+                            class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                            data-accordion-target="#accordion-collapse-body-2" aria-expanded="false"
+                            aria-controls="accordion-collapse-body-2">
+                            <span>How much does netflix cost?</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
+                        <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Watch Netflix on your smartphone, tablet,
+                                Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹
+                                149 to ₹ 649 a month. No extra costs, no contracts.</p>
+
+                        </div>
+                    </div>
+                    <h2 id="accordion-collapse-heading-3">
+                        <button type="button"
+                            class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                            data-accordion-target="#accordion-collapse-body-3" aria-expanded="false"
+                            aria-controls="accordion-collapse-body-3">
+                            <span>Where can i watch</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Watch anywhere, anytime. Sign in with your
+                                Netflix account to watch instantly on the web at netflix.com from your personal computer
+                                or on any internet-connected device that offers the Netflix app, including smart TVs,
+                                smartphones, tablets, streaming media players and game consoles.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">You can also download your favourite shows
+                                with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go
+                                and without an internet connection. Take Netflix with you anywhere.</p>
+
+                        </div>
+                    </div>
+                    <h2 id="accordion-collapse-heading-4">
+                        <button type="button"
+                            class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                            data-accordion-target="#accordion-collapse-body-4" aria-expanded="false"
+                            aria-controls="accordion-collapse-body-3">
+                            <span>How do i cancel?</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-4" class="hidden" aria-labelledby="accordion-collapse-heading-4">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Netflix is flexible. There are no annoying
+                                contracts and no commitments. You can easily cancel your account online in two clicks.
+                                There are no cancellation fees – start or stop your account anytime.</p>
+
+
+                        </div>
+                    </div>
+
+                    <h2 id="accordion-collapse-heading-5">
+                        <button type="button"
+                            class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                            data-accordion-target="#accordion-collapse-body-5" aria-expanded="false"
+                            aria-controls="accordion-collapse-body-5">
+                            <span>What can i watch on Netflix?</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-5" class="hidden" aria-labelledby="accordion-collapse-heading-5">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Netflix has an extensive library of feature
+                                films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch
+                                as much as you want, anytime you want.</p>
+
+
+                        </div>
+                    </div>
+
+                    <h2 id="accordion-collapse-heading-6">
+                        <button type="button"
+                            class="flex items-center justify-between w-full p-5 font-medium text-left text-gray-500 border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800"
+                            data-accordion-target="#accordion-collapse-body-6" aria-expanded="false"
+                            aria-controls="accordion-collapse-body-6">
+                            <span>Is Netflix good for kids?</span>
+                            <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="M9 5 5 1 1 5" />
+                            </svg>
+                        </button>
+                    </h2>
+                    <div id="accordion-collapse-body-6" class="hidden" aria-labelledby="accordion-collapse-heading-6">
+                        <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">The Netflix Kids experience is included in
+                                your membership to give parents control while kids enjoy family-friendly TV shows and
+                                films in their own space.</p>
+                            <p class="mb-2 text-gray-500 dark:text-gray-400">Kids profiles come with PIN-protected
+                                parental controls that let you restrict the maturity rating of content kids can watch
+                                and block specific titles you don’t want kids to see.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div>
+            <p class="text-[20px] text-center text-white pt-[35px] font-bold">Ready to watch? Enter your email to create
+                or
+                restart your
+                membership.</p>
+
+            <div class="max-w-[700px] sm:px-[10px] px-[40px] mx-auto mt-[30px] text-white">
+                <form class="grid gap-[20px] sm:grid-cols-[70%_auto] grid-cols-1" action="">
+                    <input class="border-[1px] pl-[20px] h-[50px] border-[#ccc] bg-[rgba(0,0,0,0.7)]" type="email"
+                        placeholder="Email Address">
+                    <button class=" sm:ml-[10px]  rounded-[5px] bg-[red] py-[10px] text-[20px]">Get
+                        Started ></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============= FAQ section Ends=================== -->
+
+    <!-- ========footer start============ -->
+
+    <section class="w-[100%] bg-black border-t-[10px] border-t-[#696763] sm:py-[50px] py-[80px]">
+        <div class="max-w-[1170px] mx-auto px-[15px]">
+
+            <footer class="bg-white dark:bg-black">
+                <div class="mx-auto w-full max-w-screen-xl">
+                    <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                        <div>
+                            <h2 class="mb-6 text-sm text-gray-900 uppercase dark:text-white">Questions? Call
+                                <span class="underline-offset-1">000-800-919-1694</span>
+                            </h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="#" class=" hover:underline">FAQ</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Investor relations</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Privacy</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Speed Test</a>
+                                </li>
+                                <li class="mb-4">
+
+                                    <div class="relative">
+                                        <svg class="text-white absolute top-[10px] left-[5px]" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                            class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="Languages"
+                                            aria-hidden="true">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
+                                                fill="currentColor"></path>
+                                        </svg>
+                                        <!-- <img class= src="./images/world.png" alt=""> -->
+                                        <select name="" id=""
+                                            class="bg-black text-white border-[1px] border-t-white p-[6px_20px] rounded-[5px] sm: p[5px_25px]">
+                                            <option value="">English</option>
+                                            <option value="">Hindi</option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                            </h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Help Centre</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Jobs</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Cookie Prefences</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Legal Notices</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"></h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Account</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Ways to watch</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Corporate Information </a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Only on Netflix </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white"></h2>
+                            <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Media Centre</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Terms of use</a>
+                                </li>
+                                <li class="mb-4">
+                                    <a href="#" class="hover:underline">Contact us</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="px-4 py-6 bg-gray-100 dark:bg-black md:flex md:items-center md:justify-between cursor-pointer">
+                        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"> Netflix India</a>
+                        </span>
+
+                        </a>
+                    </div>
+                </div>
+        </div>
+        </footer>
+
+        </div>
+    </section>
+
+    <!-- ========footer Ends============ -->
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+</body>
+
+</html>
